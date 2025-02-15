@@ -1,0 +1,50 @@
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+/* Dark Mode Navbar */
+.dark .navbar {
+  background: #333;
+  box-shadow: 0px 3px 8px rgba(255, 255, 255, 0.1);
+}
+
+/* Navbar Title */
+.navbar h1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.dark .navbar h1 {
+  color: white;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  border: none;
+  background: transparent;
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  color: #333;
+}
+
+.dark .theme-toggle {
+  color: yellow;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,129 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Light Mode */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  transition: background 0.3s ease-in-out;
+  color: black;
+}
+
+/* Dark Mode */
+body.dark {
+  background: linear-gradient(to right, #232526, #414345);
+  color: white;
+}
+
+/* App Container */
+.App {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 380px;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Dark Mode App */
+.dark .App {
+  background: #2b2b2b;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* Input Fields */
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+}
+
+/* Submit Button */
+button {
+  margin-top: 12px;
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #357ae8;
+  transform: scale(1.05);
+}
+
+/* USER LIST FIX (Smaller & Compact) */
+.user-list {
+  list-style: none;
+  padding: 8px;
+  margin-top: 10px;
+  width: 100%;
+  max-height: 200px; /* Limits the height */
+  overflow-y: auto;  /* Adds scroll if too many users */
+}
+
+/* User List Item - SMALLER */
+.user-list li {
+  background: #f9f9f9;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px; /* Smaller font */
+  transition: 0.3s ease-in-out;
+}
+
+/* Dark Mode User List */
+.dark .user-list li {
+  background: #444;
+  color: white;
+}
+
+/* Headings */
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .App {
+    width: 90%;
+    padding: 20px;
+  }
+
+  input, button {
+    font-size: 14px;
+    padding: 9px;
+  }
+}
