@@ -15,7 +15,9 @@ This is a full-stack MERN application for user management, built using React.js,
 🖼️ UI Preview
 Light Mode:
 
+
 Dark Mode:
+
 
 🛠️ Tech Stack
 Frontend:
