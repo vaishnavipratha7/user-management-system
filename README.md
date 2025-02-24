@@ -1,4 +1,5 @@
 🚀 User Management System (MERN Stack) – Bootstrapped with Create React App
+
 This is a full-stack MERN application for user management, built using React.js, Node.js, Express, and MongoDB. The project was bootstrapped using Create React App and was enhanced with additional functionalities, UI improvements, and a dark mode toggle.
 
 🔹 Trainer Helped: The functionality part was implemented with guidance from my trainer.
