@@ -183,12 +183,3 @@ Dark mode UI enhancements
 Handling API calls with Axios
 
 
-📢 Contributing
-Feel free to fork this repo, open issues, and submit PRs!
-
-📢 Want to connect?
-📍 LinkedIn: (www.linkedin.com/in/vaishnavipratha7)
-📍 GitHub: (https://github.com/vaishnavipratha7)
-
-
-⭐ If you liked this project, give it a star on GitHub! 🌟
